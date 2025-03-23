@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ConsumoGetafe - Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Seleccione una categoría:</h2>
+        <button onclick="cargarProductos('verduras')">Verduras</button>
+        <button onclick="cargarProductos('carne')">Carne</button>
+        <button onclick="cargarProductos('frutería')">Frutería</button>
+        <button onclick="cargarProductos('pastelería')">Pastelería</button>
+
+        <div id="productos-container"></div>
+        <button onclick="verCarrito()">Ver Carrito</button>
+        <button onclick="checkout()">Finalizar Compra</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
